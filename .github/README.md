@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/lib-dynamodb`](https://www.npmjs.com/package/@aws-sdk/lib-dynamodb/v/3.1127.0).
+[`@aws-sdk/lib-dynamodb`](https://www.npmjs.com/package/@aws-sdk/lib-dynamodb/v/3.1128.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/lib-dynamodb - [https://cloud-sdk-builds.github.io/?sdk=lib-dynamodb](https://cloud-sdk-builds.github.io/?sdk=lib-dynamodb)
-- @aws-sdk/lib-dynamodb v3.1127.0 - [https://cloud-sdk-builds.github.io/?sdk=lib-dynamodb&version=3.1127.0](https://cloud-sdk-builds.github.io/?sdk=lib-dynamodb&version=3.1127.0)
+- @aws-sdk/lib-dynamodb v3.1128.0 - [https://cloud-sdk-builds.github.io/?sdk=lib-dynamodb&version=3.1128.0](https://cloud-sdk-builds.github.io/?sdk=lib-dynamodb&version=3.1128.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1127.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1128.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-04AD6THSTn2+UYE7C20Ok9YZa4SzZJL4Ey8I4+e3UqrHeUljQ0qOmehGTd7pOlcL
+sha384-vb+P36Xy0QmGQXdZt8ayKRUMXP9trjOvxeR+MZQud+OtxU3UrUDz2LpRPsJ+AEku
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/lib-dynamodb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1127.0/index.min.mjs"
+            "@aws-sdk/lib-dynamodb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1128.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1127.0/index.min.mjs": "sha384-04AD6THSTn2+UYE7C20Ok9YZa4SzZJL4Ey8I4+e3UqrHeUljQ0qOmehGTd7pOlcL"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1128.0/index.min.mjs": "sha384-vb+P36Xy0QmGQXdZt8ayKRUMXP9trjOvxeR+MZQud+OtxU3UrUDz2LpRPsJ+AEku"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/lib-dynamodb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1127.0/index.min.mjs"
+                        "@aws-sdk/lib-dynamodb": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1128.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1127.0/index.min.mjs": "sha384-04AD6THSTn2+UYE7C20Ok9YZa4SzZJL4Ey8I4+e3UqrHeUljQ0qOmehGTd7pOlcL"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/lib-dynamodb@3.1128.0/index.min.mjs": "sha384-vb+P36Xy0QmGQXdZt8ayKRUMXP9trjOvxeR+MZQud+OtxU3UrUDz2LpRPsJ+AEku"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1127.0`)
+* Always pin to a specific version (`@3.1128.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/lib-dynamodb/blob/refs/tags/3.1127.0/LICENSE
+https://github.com/cloud-sdk-builds/lib-dynamodb/blob/refs/tags/3.1128.0/LICENSE
 ```
 
 ---
